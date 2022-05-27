@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+#board {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #282c34;
+}
+
+.tile {
+	width: 3vw;
+	height: 3vw;
+	margin: 4px;
+	background-color: #282c34;
+	border: 2px solid #dcdfe4;
+	border-radius: 25%;
+}
